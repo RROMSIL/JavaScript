@@ -1,0 +1,134 @@
+﻿body
+{
+    max-width:1600px;
+    font-family:Arial;
+    font-size:1em;
+    text-align:center;
+}
+
+div {
+    text-align:center;
+}
+.tableHeader{
+    text-align:left;
+}
+
+td {
+    width: .16666667%;
+}
+h1 {
+    font-size:1.3em;
+    color:slategray;
+}
+h2 {
+    font-size:1.2em;
+    color:slategray;
+}
+
+footer {
+    font-size: .7em;
+    text-align: left;
+}
+
+#stopBtn 
+{
+        position: inherit;
+        float: right;
+        right: 30%;
+        background-color: lightblue;
+        font-weight: bold;
+        height: 2em; 
+
+}
+
+#integration,#time,#quality,#communications,#procurement
+{
+    background-color:lightblue;
+}
+
+#scope,#cost,#hr,#risk,#stakeholders,#th1,#th2
+{
+    background-color:lavender;
+}
+
+#instructions 
+{
+    font-size:.8em;
+    font-style:italic;
+    font-weight:bold;
+    color:orangered;
+}
+
+#th1, #th2 
+{
+    font-weight:bold;
+}
+
+#m1 
+{
+    width:60%;
+    max-width:1024px;
+    vertical-align:middle;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#processID 
+{
+    background-color: lavender;
+    height:2.5em;
+    border-style:solid;
+    border-color:white;
+    box-shadow: .5em .5em lavender;
+    text-align:center;  
+    font-weight:bold;
+    font-size:1em; 
+    width:50%;
+}
+
+@media screen and (max-width: 520px){
+#m1 {
+    width:100%;
+}
+#processID {
+    width:90%;
+
+}
+}
+
+@media screen and (max-width: 480px){
+body, #m1 {
+    width:100%;
+    font-size:13px;
+    margin-left: 0;
+    margin-right:0;
+}
+#processID {
+    width:95%;
+
+}
+}
+
+
+@media screen and (max-width: 768px){
+#m1  { 
+    width:80%;
+    
+}
+
+#processID {
+    width:80%;
+
+}
+}
+@media screen and (min-width: 7680px) {
+    #m1 {
+        max-width: 768px;
+    }
+
+    #processID {
+        width: 70%;
+    }
+} 
+
